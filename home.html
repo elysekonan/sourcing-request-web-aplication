@@ -1,5 +1,35 @@
-<div class="col-md-12" style="width:500px;">
-    <div align="right"><a ui-sref="login">Logout</a></div>
-    <h4>Welcome {{user}} !</h4>
-    <p><strong>Home Page</strong></p>
-</div>
+<html>
+    <head>
+        <style>
+            .form-group {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+
+            .btn-info {background-color: #4CAF50;}
+            .btn-logout {background-color: #008CBA}
+        </style>
+    </head>
+
+
+    <body style="background-color:powderblue">
+        <div class="col-md-12" style="width:500px">
+            <h1 align="center">Home Page</h1>
+            <h4>Welcome {{User}} !</h4>
+            <div class="form-group" align="left"><button type="submit" class="btn-info" style="margin:5px">Create</button><br></div>
+            <div class="form-group" align="center"><button type="submit" class="btn-info" style="margin:5px">Search</button><br></div>
+            <div class="form-group" align="right"><button type="submit" class="btn-info" style="margin:5px">Edit</button><br></div>
+            
+        </div>
+        <div class="form-group" align="right">
+                <button type="submit" class="btn-logout">Logout</button><br>
+            </div>
+    </body>
+</html>
