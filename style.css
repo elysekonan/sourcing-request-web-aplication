@@ -1,3 +1,4 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 .form-group {
     display: flex;
     justify-content: space-between;

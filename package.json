@@ -1,0 +1,22 @@
+{
+  "name": "sourcing-request-web-application",
+  "version": "1.0.0",
+  "description": "Web Application Project:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elysekonan/sourcing-request-web-aplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elysekonan/sourcing-request-web-aplication/issues"
+  },
+  "homepage": "https://github.com/elysekonan/sourcing-request-web-aplication#readme",
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
