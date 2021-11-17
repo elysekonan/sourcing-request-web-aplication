@@ -1,4 +1,4 @@
 export class ILogin {
-    userid: string;
-    password: string;
+    userid: string | undefined;
+    password: string | undefined;
 }
